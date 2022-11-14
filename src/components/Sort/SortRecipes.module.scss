@@ -1,0 +1,32 @@
+.filters {
+    display: flex;
+    align-items: center;
+    width: 502px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid #DFE5EC;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filters__filter {
+    background-color: #fff;
+    border: 1px solid #DFE5EC;
+    text-align: center;
+    width: 34%;
+    line-height: 50px;
+
+}
+
+.filters__filter:hover {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.filter__clicked {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 5px;
+}

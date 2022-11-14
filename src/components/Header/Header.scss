@@ -1,0 +1,49 @@
+.app_header {
+    height: 80px;
+    // background-color: #fff;
+    // background-color: #f0f8ff;
+    background: linear-gradient(90deg, rgba(9, 121, 107, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 22px 15px;
+}
+
+.header_name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-logOut {
+    width: 109px;
+    height: 51px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header_btn {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-data__button {
+    height: 31px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px 6px;
+    background: none;
+    cursor: pointer;
+    color: #52C41A;
+    border: 1px solid #52C41A;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
